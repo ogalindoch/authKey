@@ -1,14 +1,14 @@
 <?php
 
-namespace euroglas\authKey;
+namespace euroglas\authkey;
 
-class authKey extends \euroglas\eurorest\auth
+class authkey extends \euroglas\eurorest\auth
 {
 	// Nombre del cliente autenticado
 	private $authName = "";
 
     // Nombre oficial del modulo
-    public function name() { return "authKey"; }
+    public function name() { return "authkey"; }
 
     // Descripcion del modulo
     public function description() { return "Módulo de autenticacion usando Llaves Compartidas"; }
