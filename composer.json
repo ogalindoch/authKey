@@ -1,5 +1,5 @@
 {
-	"name"	: "euroglas/authKey",
+	"name"	: "euroglas/authkey",
 	"type"	: "library",
 	"description"	: "Modulo de autenticación usando Llaves, para EUROGLAS",
 	"keywords"	: ["auth","rest","euroglas"],
@@ -15,7 +15,7 @@
     },
 	"autoload": {
 		"psr-4": {
-			"euroglas\\authKey\\": "src/"
+			"euroglas\\authkey\\": "src/"
 		}
 	}
 }
